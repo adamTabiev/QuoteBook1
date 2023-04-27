@@ -13,6 +13,7 @@
 		F178453C29EFFF2C00D2C306 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F178453B29EFFF2C00D2C306 /* Preview Assets.xcassets */; };
 		F178454329EFFF9400D2C306 /* Human.swift in Sources */ = {isa = PBXBuildFile; fileRef = F178454229EFFF9400D2C306 /* Human.swift */; };
 		F178454829F02A5200D2C306 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F178454729F02A5200D2C306 /* Data.swift */; };
+		F178454A29F0324D00D2C306 /* HumanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F178454929F0324D00D2C306 /* HumanViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		F178453B29EFFF2C00D2C306 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F178454229EFFF9400D2C306 /* Human.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Human.swift; sourceTree = "<group>"; };
 		F178454729F02A5200D2C306 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		F178454929F0324D00D2C306 /* HumanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		F178454629F029F300D2C306 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				F178454929F0324D00D2C306 /* HumanViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				F178454329EFFF9400D2C306 /* Human.swift in Sources */,
 				F178453529EFFF2A00D2C306 /* QuoteBook1App.swift in Sources */,
 				F178454829F02A5200D2C306 /* Data.swift in Sources */,
+				F178454A29F0324D00D2C306 /* HumanViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
