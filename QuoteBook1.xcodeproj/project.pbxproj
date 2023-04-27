@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F132CC0C29FA5EC100DEAADB /* HumanDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F132CC0B29FA5EC100DEAADB /* HumanDetailView.swift */; };
+		F132CC0E29FA70A000DEAADB /* HumanCommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F132CC0D29FA70A000DEAADB /* HumanCommentView.swift */; };
 		F178453529EFFF2A00D2C306 /* QuoteBook1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F178453429EFFF2A00D2C306 /* QuoteBook1App.swift */; };
 		F178453729EFFF2A00D2C306 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F178453629EFFF2A00D2C306 /* ContentView.swift */; };
 		F178453929EFFF2C00D2C306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F178453829EFFF2C00D2C306 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		F132CC0B29FA5EC100DEAADB /* HumanDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanDetailView.swift; sourceTree = "<group>"; };
+		F132CC0D29FA70A000DEAADB /* HumanCommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanCommentView.swift; sourceTree = "<group>"; };
 		F178453129EFFF2A00D2C306 /* QuoteBook1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuoteBook1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F178453429EFFF2A00D2C306 /* QuoteBook1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteBook1App.swift; sourceTree = "<group>"; };
 		F178453629EFFF2A00D2C306 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				F178453629EFFF2A00D2C306 /* ContentView.swift */,
 				F132CC0B29FA5EC100DEAADB /* HumanDetailView.swift */,
+				F132CC0D29FA70A000DEAADB /* HumanCommentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			files = (
 				F178453729EFFF2A00D2C306 /* ContentView.swift in Sources */,
 				F178454329EFFF9400D2C306 /* Human.swift in Sources */,
+				F132CC0E29FA70A000DEAADB /* HumanCommentView.swift in Sources */,
 				F178453529EFFF2A00D2C306 /* QuoteBook1App.swift in Sources */,
 				F178454829F02A5200D2C306 /* Data.swift in Sources */,
 				F132CC0C29FA5EC100DEAADB /* HumanDetailView.swift in Sources */,

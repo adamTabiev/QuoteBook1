@@ -13,6 +13,9 @@ struct HumanDetailView: View {
     var body: some View {
         ScrollView {
             Image(human.imageName)
+//                .resizable()
+//                .scaledToFit()
+//                .frame(width: 100, height: 100)
                 .clipShape(Circle())
                 .overlay(Circle().stroke(.orange, lineWidth: 4))
                 .shadow(radius: 10)
