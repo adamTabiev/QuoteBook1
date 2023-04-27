@@ -30,9 +30,6 @@ struct Comment: Identifiable {
 }
 
 
-
-
-
 extension Human {
     
     static let sample = Human(

@@ -38,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F132CC0A29FA5BAC00DEAADB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F178454729F02A5200D2C306 /* Data.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		F178452829EFFF2A00D2C306 = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +66,9 @@
 			isa = PBXGroup;
 			children = (
 				F178453429EFFF2A00D2C306 /* QuoteBook1App.swift */,
+				F132CC0A29FA5BAC00DEAADB /* Data */,
 				F178454629F029F300D2C306 /* ViewModel */,
-				F178454529F029DB00D2C306 /* View */,
+				F178454529F029DB00D2C306 /* Views */,
 				F178454429F029BD00D2C306 /* Model */,
 				F178453829EFFF2C00D2C306 /* Assets.xcassets */,
 				F178453A29EFFF2C00D2C306 /* Preview Content */,
@@ -79,17 +88,16 @@
 			isa = PBXGroup;
 			children = (
 				F178454229EFFF9400D2C306 /* Human.swift */,
-				F178454729F02A5200D2C306 /* Data.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		F178454529F029DB00D2C306 /* View */ = {
+		F178454529F029DB00D2C306 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				F178453629EFFF2A00D2C306 /* ContentView.swift */,
 			);
-			path = View;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		F178454629F029F300D2C306 /* ViewModel */ = {
